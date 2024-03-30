@@ -72,8 +72,12 @@ To run the scripts, you need to have the following prerequisites installed:
 ### Cirq
 The Cirq script creates a quantum circuit using Cirq's `GridQubit` and applies quantum operations to the qubits. The circuit diagram is obtained using the `to_text_diagram()` method.
 
+[![cirq_quantum_circuit](https://github.com/ericyoc/quantum-circuits/blob/main/qnn_circuits/simple_cirq_quantum_circuit.jpg?raw=true)](https://github.com/ericyoc/quantum-circuits/blob/main/qnn_circuits/simple_cirq_quantum_circuit.jpg)
+
 ### PennyLane
 The PennyLane script defines a quantum circuit using PennyLane's `qnode` and encodes the input image into the quantum circuit using RX gates. The `StronglyEntanglingLayers` template is then applied to the circuit, followed by measurements of the expectation values of the Pauli-Z operator on each qubit.
+
+[![pennylane_quantum_circuit](https://github.com/ericyoc/quantum-circuits/blob/main/qnn_circuits/simgple_pennylane_quantum_circuit.jpg?raw=true)](https://github.com/ericyoc/quantum-circuits/blob/main/qnn_circuits/simgple_pennylane_quantum_circuit.jpg)
 
 ## Variational Classifiers
 
