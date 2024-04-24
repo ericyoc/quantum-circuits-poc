@@ -2,8 +2,12 @@
 
 This repository contains Python scripts that demonstrate quantum image classification using the Cirq and PennyLane libraries with the MNIST dataset. The scripts create quantum circuits and apply variational classifiers to predict the digit represented in a given test image.
 
-## Motivating Article
-Guala, D., Zhang, S., Cruz, E. et al. Practical overview of image classification with tensor-network quantum circuits. Sci Rep 13, 4427 (2023). https://doi.org/10.1038/s41598-023-30258-y
+## Motivating Articles
+Guala, D., Zhang, S., Cruz, E. et al. Practical overview of image classification with tensor-network quantum circuits. Sci Rep 13, 4427 (2023). 
+https://doi.org/10.1038/s41598-023-30258-y
+
+Ménard, A., Ostojic, I., Patel, M., & Volz, D. (2020). A game plan for quantum computing. McKinsey Quarterly.
+https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/a-game-plan-for-quantum-computing
 
 ## Prerequisites
 To run the scripts, you need to have the following prerequisites installed:
